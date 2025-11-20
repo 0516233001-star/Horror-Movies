@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Londrina+Shadow&family=Sancreek&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body {
+    background-color: white;
+    font-family: "Londria Shadow";
+}
+
+h1, h2, h3 {
+    font-family: "Bungee Spice"
+}
