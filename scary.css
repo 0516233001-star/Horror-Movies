@@ -4,3 +4,26 @@ body {
     font-family: "Londria Shadow";
 }
 
+
+.typing-text {
+  overflow: hidden;
+  border-right: 2px solid;
+  animation: typing 3s steps(18, end) forwards;
+}
+
+.main p {
+  overflow: hidden;
+  animation: reveal-text 8s ease-out forwards;
+  animation-delay: 3s;
+  max-height: 0;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes reveal-text {
+  from { max-height: 0; opacity: 0; }
+  to { max-height: 500px; opacity: 1; }
+}

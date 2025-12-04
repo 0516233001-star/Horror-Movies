@@ -16,6 +16,3 @@ img {
     padding: 10px;
 }
 
-.header:hover {
-    transform: scale(1.05) translateY(-10px)
-}
