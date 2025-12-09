@@ -1,4 +1,12 @@
 body {
     background-color: black;
-    
+    color: Red;
+}
+
+img {
+    width: 800px;
+    height: 550px;
+}
+a {
+    color: gray;
 }
