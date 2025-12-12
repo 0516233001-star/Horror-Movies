@@ -1,12 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Shadows+Into+Light&display=swap');
+
 body {
     background-color: black;
-    color: Red;
+    color: whitesmoke;
+    font-family: "Noto Sans";
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
 }
+
+.top h1 {
+  font-family: "Shadows Into Light";
+  font-size: 40px;
+  color: red;
+}
+
+.typing-text {
+  overflow: hidden;
+  border-right: 2px solid;
+  animation: typing 3s steps(18, end) forwards;
+}
+
+.main p {
+  overflow: hidden;
+  animation: reveal-text 8s ease-out forwards;
+  animation-delay: 3s;
+  max-height: 0;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes reveal-text {
+  from { max-height: 0; opacity: 0; }
+  to { max-height: 500px; opacity: 1; }
+}
+
+ a {
+  color: orangered;
+}
+
+
 
 img {
     width: 800px;
     height: 550px;
 }
-a {
-    color: gray;
-}
+
+
