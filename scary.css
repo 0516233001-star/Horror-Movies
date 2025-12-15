@@ -42,3 +42,39 @@ body {
   color: orangered;
 }
 
+ody {
+    background: linear-gradient(135deg, #1a0000, #330000);
+    color: #ffffff;
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #ff0000;
+    text-shadow: 2px 2px 8px #000000;
+    font-size: 3em;
+    margin: 20px 0;
+}
+
+.header nav {
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+}
+
+.header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 20px;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+}
+
+.header nav a:hover {
+    background: #ff0000;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
